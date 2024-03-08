@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 390px;
+    max-width: 380px;
 }
 
 .inner {
@@ -30,8 +30,6 @@ body {
 .item {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid rgb(73, 71, 71);
-  border-width: 1px;
   text-align: center;
   overflow: hidden;
 }
@@ -59,7 +57,7 @@ body {
 	text-align: center;
 }
 .action-button {
-	width: 45%;
+	width: 180px;
 	height: 45px;
 	background-color: rgb(73, 71, 71); 
 	border: none;
@@ -81,7 +79,7 @@ body {
   }
   
   .search-input {
-	width: 350px;
+	width: 360px;
 	height: 40px;
 	font-size: 16px;
 	border-radius: 12px;
@@ -111,5 +109,7 @@ body {
 .inner2 h3 {
 margin-left: 15px;	
 }
+
+
 
 
