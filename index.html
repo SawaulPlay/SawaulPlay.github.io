@@ -1,62 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-	<title>Task</title>
-</head>
-<body>
-	<div class="container">
-		<div class="inner">
-			<div class="buttons-container">
-			  <button class="action-button" onclick="window.location.reload(); window.location.href='index.html';">Акции</button>
-			  <button class="action-button" onclick="window.location.reload(); window.location.href='categories.html';">Категории</button>
-			  <div class="search-container">
-				<input type="text" class="search-input" placeholder="Поиск">
-				<span class="search-icon"><i class="fas fa-search"></i></span>
-			  </div>
-			</div>	
-	</div>
-	  <div class="inner">
-		<div class="item" onclick="window.location.reload(); window.location.href='link.html';">
-		  <img src="images.png" alt="Error" class="img">
-		  <h4>Мегамаркет</h4>
-		  <p class="aboutShop">Маркетплейс</p>
-		</div>
-		<div class="inner">
-			<div class="item" onclick="window.location.reload(); window.location.href='link.html';">
-			  <img src="images (1).png" alt="Error" class="img">
-			  <h4>Летуаль</h4>
-			  <p class="aboutShop">Маркетплейс</p>
-			</div>
-			<div class="inner">
-				<div class="item" onclick="window.location.reload(); window.location.href='link.html';">
-				  <img src="1-mcd_logo.jpg__1574154109__64044.jpg" alt="Error" class="img">
-				  <h4>Макдональдс</h4>
-				  <p class="aboutShop">Фастфуд</p>
-				</div>
-				<div class="inner">
-					<div class="item" onclick="window.location.reload(); window.location.href='link.html';">
-					  <img src="tinkoff-rko.png" alt="Error" class="img">
-					  <h4>Банковская система Тинькоф</h4>
-					  <p class="aboutShop">Банк</p>
-					</div>
-					<div class="inner">
-						<div class="item" onclick="window.location.reload(); window.location.href='link.html';">
-						  <img src="app.png" alt="Error" class="img">
-						  <h3>Мегамаркет</h3>
-						  <p class="aboutShop">Маркетплейс</p>
-						</div>
-						<div class="inner">
-							<div class="item" onclick="window.location.reload(); window.location.href='link.html';">
-							  <img src="app.png" alt="Error" class="img">
-							  <h3>Мегамаркет</h3>
-							  <p class="aboutShop">Маркетплейс</p>
-							</div>
-	  <div class="usercard" id="usercard"></div>
-	</div>
+body {
+	width: 395px;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+}
+
+.container {
+    max-width: 390px;
+}
+
+.inner {
+	margin-top: 8px;
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 115px ;
+}
+
+.img {
+  margin-left: 5px;
+  margin-right: 25px;
+  margin-top: 3px;
+  border-radius: 15px;
+  width: 80px;	
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(73, 71, 71);
+  border-width: 1px;
+  text-align: center;
+  overflow: hidden;
+}
+.item1 {
+	display: flex;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+.item h2 {
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+  }
+  .item h4 {
+	
+	display: flex;
+	position:relative;
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis; 
+  }
+
+.usercard {
+	text-align: center;
+}
+.action-button {
+	width: 185px;
+	height: 45px;
+	background-color: rgb(73, 71, 71); 
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+  }
+  .action-button:hover {
+	background-color: #999;
+  }
+  
+  .search-container {
+	position: relative;
+  }
+  
+  .search-input {
+	width: 375px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 12px;
+	border: 2px solid rgb(73, 71, 71);
+  }
+  
+  .search-icon {
+	margin-right: 5px;
+	color: rgb(73, 71, 71);
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+	pointer-events: none;
+  }
+  .item p {
+	margin-top: 65px;
+	padding-left:-150px;
+	color:rgb(73, 71, 71) ;
+  }
+  .inner2 {
+	margin-top: 8px;
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 50px ;
+}
+.inner2 h3 {
+margin-left: 15px;	
+}
+
+
+
 
 	<script src="https://telegram.org/js/telegram-web-app.js"></script>
 	<script src="app.js"></script>
