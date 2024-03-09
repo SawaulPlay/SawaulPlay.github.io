@@ -1,6 +1,15 @@
 let tg = window.Telegram.WebApp;
 
 tg.expand();
+var BackButton = WebApp.BackButton;
+BackButton.show();
+BackButton.onClick(function() {
+    WebApp.showAlert("BackButton clicked");
+    BackButton.hide();
+});
+WebApp.onEvent('backButtonClicked', function() {
+ 
+});
 
 tg.MainButton.textColor = '#FFFFFF';
 tg.MainButton.color = '#2cab37';
