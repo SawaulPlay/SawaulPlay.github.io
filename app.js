@@ -1,7 +1,7 @@
 let tg = window.Telegram.WebApp;
 
 tg.expand();
-var BackButton = WebApp.BackButton;
+var BackButton = tg.BackButton;
 BackButton.show();
 BackButton.onClick(function() {
     WebApp.showAlert("BackButton clicked");
