@@ -3,6 +3,7 @@ let tg = window.Telegram.WebApp;
 tg.expand();
 var BackButton = Telegram.WebApp.BackButton;
 BackButton.show();
+BackButton.isVisible(True);
 BackButton.onClick(function() {
     WebApp.showAlert("BackButton clicked");
     BackButton.hide();
