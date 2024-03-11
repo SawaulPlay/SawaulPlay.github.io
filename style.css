@@ -1,3 +1,4 @@
+
 body {
 	width: 380px;
 	overflow-x: hidden;
@@ -61,7 +62,6 @@ body {
 	margin-bottom:150px;
 	height:130px;
 	width:365px;
-	border:1px solid black ;
 
 }
 
@@ -181,7 +181,7 @@ margin-left: 10px;
 margin-left:5px;	
 margin-right:10px;
 }
-#copybutton{
+.copybutton{
 	background-color:#707070;
 	margin-left:320px;
 	margin-top:145px;
@@ -192,7 +192,7 @@ margin-right:10px;
   background-image: url("copy-icon-700-124804453-removebg-preview.png");
   background-size: cover;
 }
-#secondbutton{
+.secondbutton{
 	background-color:#707070;
 	margin-left:10px;
 	margin-right:8px;
@@ -225,6 +225,82 @@ margin-right:10px;
 	font-family: 'Ubuntu', sans-serif;
 	padding-bottom: 120px;
 }
+.in8{
+	height:35px;
+	width:265px;
+	display:flex;
+	margin-top:-80px;
+    margin-left:80px;
+	margin-bottom:90px;
+	border:1px solid #707070;
+	border-radius:5px;
+}
+.item8{
+padding-left:10px;
+}
+.img9{
+	border-radius:15px;
+	margin-left:-8px;
+	margin-top:-70px;
+	background-image: url("paste_120009.png");
+    background-size: cover;
+	border: 1px solid #707070;
+	width: 80px;
+	height: 80px;
+}
+.addpromo{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:18px;
+	margin-top:-55px;
+	margin-left:85px;
 
+	
+}
+.inner9{
+	margin-top: 8px;
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 250px ;
+}
+.button{
+	text-align: center;
+	align-items:center;
+	height:35px;
+	width:270px;
+	display:flex;
+	margin-top:-80px;
+    margin-left:80px;
+	margin-bottom:90px;
+	border:1px solid #707070;
+	border-radius:5px;
+}
+.in9{
+	height:35px;
+	width:265px;
+	margin-top:-30px;
+    margin-left:80px;
+	margin-bottom:20px;
+	border:1px solid #707070;
+	border-radius:5px;
+}
+.search-icon{
+	width:30px;
+	height: 30px;
+	background-image: url("zalupa.png");
+    background-size: cover;
+}
+.button1{
+	text-align: center;
+	align-items:center;
+	height:35px;
+	width:270px;
+	display:flex;
+    margin-left:80px;
+	border:1px solid #707070;
+	border-radius:5px;
+}
+
+  
+ 
 
 
