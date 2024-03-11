@@ -51,15 +51,15 @@ body {
 }
 .promText{
 	text-align:left;
-	font-size:15px;
+	font-size:18px;
 	font-family: 'Ubuntu', sans-serif;
 	color:white;
 	word-wrap: break-word;
-	margin-top:20px;
+	margin-top:45px;
 	margin-right:5px;
 	margin-left:5px;
 	margin-bottom:150px;
-	height:100px;
+	height:130px;
 	width:365px;
 	border:1px solid black ;
 
@@ -94,7 +94,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 12px;
@@ -110,7 +110,7 @@ body {
   .search-input {
 	width: 360px;
 	height: 40px;
-	font-size: 16px;
+	font-size: 18px;
 	border-radius: 12px;
 	border: 2px solid rgb(73, 71, 71);
   }
@@ -136,8 +136,7 @@ body {
 }
 .item {
   display: flex;
-  align-items: center;
-  text-align: center;
+  
   overflow: hidden;
 }
 .inner2 h3 {
@@ -149,8 +148,20 @@ margin-left: 10px;
 	margin-left: 10px;
 }
 .in{
+	position: absolute;
+	display: flex;
 	font-family: 'Ubuntu', sans-serif;
-	padding-bottom: 40px;	
+	padding-bottom: 60px;
+	margin-left:100px;
+	justify-content:start;	
+}
+.in6{
+	padding-bottom: 15px;
+	margin-left:100px;
+	position: absolute;
+	display: flex;
+	font-family: 'Ubuntu', sans-serif;
+	justify-content:start;
 }
 .text{
 	font-family: 'Ubuntu', sans-serif;
@@ -159,31 +170,61 @@ margin-left: 10px;
 	display: flex;
   align-items: center;
 	background-color:#707070;
-	display:flex;
 	position:absolute;
-	margin-left:5px;
-	margin-top:120px;
+	margin-left:10px;
+	margin-top:145px;
 	width:300px;
-	height:35px;
+	height:45px;
 	border-radius: 15px;
-	border:1px solid black;	
 }
 .text1{
+margin-left:5px;	
 margin-right:10px;
 }
 #copybutton{
 	background-color:#707070;
 	margin-left:320px;
-	margin-top:115px;
+	margin-top:145px;
 	position:absolute;
-	border:2px solid black;
-	border-radius:10px;
+	border-radius: 10px;
 	width: 45px;  
   height: 45px; 
   background-image: url("copy-icon-700-124804453-removebg-preview.png");
   background-size: cover;
 }
-
+#secondbutton{
+	background-color:#707070;
+	margin-left:10px;
+	margin-right:8px;
+	margin-top:200px;
+	position:absolute;
+	width: 360px;  
+    height: 45px; 
+	border-radius: 15px;
+}
+.subtext{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:15px;
+	height: 150px;
+    width: 365px;
+	margin-top:160px;
+	margin-left:5px;
+	display:flex;
+	position: absolute;
+	word-break: break-all;
+	justify-content: start;
+}
+.img5{
+	margin-left: 5px;
+	margin-right: 25px;
+	margin-top:-70px;
+	border-radius: 15px;
+	width: 80px;
+}
+.in5{
+	font-family: 'Ubuntu', sans-serif;
+	padding-bottom: 120px;
+}
 
 
 
