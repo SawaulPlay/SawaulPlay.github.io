@@ -16,7 +16,12 @@ body {
 	margin-top: 8px;
 	display: grid;
 	grid-template-columns: 1fr ;
-	grid-template-rows: 110px ;
+	grid-template-rows: 125px ;
+}
+.inner1 {
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 250px ;
 }
 
 .img {
@@ -28,24 +33,46 @@ body {
 }
 
 .item {
+	margin-top: -65px;
   display: flex;
   align-items: center;
   text-align: center;
   overflow: hidden;
 }
 .item1 {
+	margin-left:3px;
+	border-radius: 25px;
+	border:1px solid #5E5A68 ;
+	background-color:#5E5A68;
 	display: flex;
   align-items: center;
   text-align: center;
   overflow: hidden;
 }
+.promText{
+	text-align:left;
+	font-size:15px;
+	font-family: 'Ubuntu', sans-serif;
+	color:white;
+	word-wrap: break-word;
+	margin-top:20px;
+	margin-right:5px;
+	margin-left:5px;
+	margin-bottom:150px;
+	height:100px;
+	width:365px;
+	border:1px solid black ;
+
+}
+
 .item h2 {
+	font-family: 'Ubuntu', sans-serif;
 	white-space: nowrap; 
 	overflow: hidden; 
 	text-overflow: ellipsis; 
   }
   .item h4 {
-	
+	font-family: 'Ubuntu', sans-serif;
 	display: flex;
 	position:relative;
 	white-space: nowrap; 
@@ -57,7 +84,9 @@ body {
 	text-align: center;
 }
 .action-button {
-	width: 180px;
+	font-family: 'Ubuntu', sans-serif;
+	font-style:normal;
+	width: 178px;
 	height: 45px;
 	background-color: rgb(73, 71, 71); 
 	border: none;
@@ -101,13 +130,58 @@ body {
 	color:rgb(73, 71, 71) ;
   }
   .inner2 {
-	margin-top: 8px;
 	display: grid;
 	grid-template-columns: 1fr ;
 	grid-template-rows: 50px ;
 }
+.item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
 .inner2 h3 {
-margin-left: 15px;	
+font-family: 'Ubuntu', sans-serif;
+margin-left: 10px;	
+}
+.container h3{
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 10px;
+}
+.in{
+	font-family: 'Ubuntu', sans-serif;
+	padding-bottom: 40px;	
+}
+.text{
+	font-family: 'Ubuntu', sans-serif;
+}
+.promoholder{
+	display: flex;
+  align-items: center;
+	background-color:#707070;
+	display:flex;
+	position:absolute;
+	margin-left:5px;
+	margin-top:120px;
+	width:300px;
+	height:35px;
+	border-radius: 15px;
+	border:1px solid black;	
+}
+.text1{
+margin-right:10px;
+}
+#copybutton{
+	background-color:#707070;
+	margin-left:320px;
+	margin-top:115px;
+	position:absolute;
+	border:2px solid black;
+	border-radius:10px;
+	width: 45px;  
+  height: 45px; 
+  background-image: url("copy-icon-700-124804453-removebg-preview.png");
+  background-size: cover;
 }
 
 
