@@ -1,5 +1,6 @@
 
 body {
+	background-color:rgb(23, 33, 43);
 	width: 380px;
 	overflow-x: hidden;
 	margin: 0;
@@ -32,6 +33,9 @@ body {
   border-radius: 15px;
   width: 80px;	
 }
+.promocode{
+	color:rgb(239, 237, 238);
+}
 
 .item {
 	margin-top: -65px;
@@ -41,10 +45,8 @@ body {
   overflow: hidden;
 }
 .item1 {
-	margin-left:3px;
 	border-radius: 25px;
-	border:1px solid #5E5A68 ;
-	background-color:#5E5A68;
+	background-color:rgb(46, 52, 64);
 	display: flex;
   align-items: center;
   text-align: center;
@@ -66,12 +68,14 @@ body {
 }
 
 .item h2 {
+	color:rgb(239, 237, 238);
 	font-family: 'Ubuntu', sans-serif;
 	white-space: nowrap; 
 	overflow: hidden; 
 	text-overflow: ellipsis; 
   }
   .item h4 {
+	color:rgb(239, 237, 238);
 	font-family: 'Ubuntu', sans-serif;
 	display: flex;
 	position:relative;
@@ -84,6 +88,7 @@ body {
 	text-align: center;
 }
 .action-button {
+	color:rgb(239, 237, 238);
 	font-family: 'Ubuntu', sans-serif;
 	font-style:normal;
 	width: 178px;
@@ -125,6 +130,7 @@ body {
 	pointer-events: none;
   }
   .item p {
+	color:rgb(239, 237, 238);
 	margin-top: 65px;
 	padding-left:-150px;
 	color:rgb(73, 71, 71) ;
@@ -140,14 +146,17 @@ body {
   overflow: hidden;
 }
 .inner2 h3 {
+	color:rgb(239, 237, 238);
 font-family: 'Ubuntu', sans-serif;
 margin-left: 10px;	
 }
 .container h3{
+	color:rgb(239, 237, 238);
 	font-family: 'Ubuntu', sans-serif;
 	margin-left: 10px;
 }
 .in{
+	backround-color:rgb(239, 237, 238);
 	position: absolute;
 	display: flex;
 	font-family: 'Ubuntu', sans-serif;
@@ -156,6 +165,7 @@ margin-left: 10px;
 	justify-content:start;	
 }
 .in6{
+	color:rgb(239, 237, 238);
 	padding-bottom: 15px;
 	margin-left:100px;
 	position: absolute;
@@ -167,9 +177,10 @@ margin-left: 10px;
 	font-family: 'Ubuntu', sans-serif;
 }
 .promoholder{
+	font-family: 'Ubuntu', sans-serif;
 	display: flex;
-  align-items: center;
-	background-color:#707070;
+    align-items: center;
+	background-color:rgb(73, 77, 88);
 	position:absolute;
 	margin-left:10px;
 	margin-top:145px;
@@ -178,11 +189,14 @@ margin-left: 10px;
 	border-radius: 15px;
 }
 .text1{
+color:rgb(239, 237, 238);
 margin-left:5px;	
 margin-right:10px;
 }
 .copybutton{
-	background-color:#707070;
+	font-family: 'Ubuntu', sans-serif;
+	border: none;
+	background-color:rgb(73, 77, 88);
 	margin-left:320px;
 	margin-top:145px;
 	position:absolute;
@@ -193,7 +207,11 @@ margin-right:10px;
   background-size: cover;
 }
 .secondbutton{
-	background-color:#707070;
+	color:rgb(239, 237, 238);
+	font-family: 'Ubuntu', sans-serif;
+	font-size:18px;
+	font-style:normal;
+	background-color:rgb(81, 136, 193);
 	margin-left:10px;
 	margin-right:8px;
 	margin-top:200px;
@@ -201,13 +219,16 @@ margin-right:10px;
 	width: 360px;  
     height: 45px; 
 	border-radius: 15px;
+	border: none;
 }
 .subtext{
+	color:rgb(239, 237, 238);
+	text-align:left;
 	font-family: 'Ubuntu', sans-serif;
 	font-size:15px;
 	height: 150px;
     width: 365px;
-	margin-top:160px;
+	margin-top:162px;
 	margin-left:5px;
 	display:flex;
 	position: absolute;
@@ -223,30 +244,22 @@ margin-right:10px;
 }
 .in5{
 	font-family: 'Ubuntu', sans-serif;
-	padding-bottom: 120px;
+  padding-bottom: 120px;
+  color: rgb(239, 237, 238);
 }
 .in8{
+	background-color:rgb(73, 77, 88);
+	border:none;
 	height:35px;
 	width:265px;
 	display:flex;
 	margin-top:-80px;
     margin-left:80px;
 	margin-bottom:90px;
-	border:1px solid #707070;
 	border-radius:5px;
 }
 .item8{
 padding-left:10px;
-}
-.img9{
-	border-radius:15px;
-	margin-left:-8px;
-	margin-top:-70px;
-	background-image: url("paste_120009.png");
-    background-size: cover;
-	border: 1px solid #707070;
-	width: 80px;
-	height: 80px;
 }
 .addpromo{
 	font-family: 'Ubuntu', sans-serif;
@@ -263,6 +276,8 @@ padding-left:10px;
 	grid-template-rows: 250px ;
 }
 .button{
+	font-family: 'Ubuntu', sans-serif;
+	border:none;
 	text-align: center;
 	align-items:center;
 	height:35px;
@@ -271,16 +286,16 @@ padding-left:10px;
 	margin-top:-80px;
     margin-left:80px;
 	margin-bottom:90px;
-	border:1px solid #707070;
 	border-radius:5px;
 }
 .in9{
+	border:none;
+	background-color:rgb(73, 77, 88);
 	height:35px;
 	width:265px;
 	margin-top:-30px;
     margin-left:80px;
 	margin-bottom:20px;
-	border:1px solid #707070;
 	border-radius:5px;
 }
 .search-icon{
@@ -290,14 +305,31 @@ padding-left:10px;
     background-size: cover;
 }
 .button1{
+	border:none;
 	text-align: center;
 	align-items:center;
 	height:35px;
 	width:270px;
 	display:flex;
     margin-left:80px;
-	border:1px solid #707070;
 	border-radius:5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+#file-input{
+	border:none;
+	height:35px;
+	width:265px;
+	display:flex;
+	margin-top:-75px;
+    margin-left:80px;
+	margin-bottom:90px;
+}
+.text5{
+color: rgb(239, 237, 238);
+font-family: 'Ubuntu', sans-serif;
+}
+.b{
+	color: rgb(239, 237, 238);	
 }
 
   
