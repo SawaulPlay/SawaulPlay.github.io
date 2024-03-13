@@ -13,8 +13,14 @@ body {
 .container {
     max-width: 380px;
 }
-
+.inner0{
+	margin-top: 8px;
+	display: grid;
+	grid-template-columns: 1fr ;
+	grid-template-rows: 125px ;	
+}
 .inner {
+	position: relative;
 	margin-top: 8px;
 	display: grid;
 	grid-template-columns: 1fr ;
@@ -38,7 +44,7 @@ body {
 }
 
 .item {
-	margin-top: -65px;
+	margin-top: 0px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -109,6 +115,7 @@ body {
   }
   
   .search-container {
+	margin-top: 15px;
 	position: relative;
   }
   
@@ -117,20 +124,23 @@ body {
 	height: 40px;
 	font-size: 18px;
 	border-radius: 12px;
-	border: 2px solid rgb(73, 71, 71);
+	border: none;
+	background-color:rgb(239, 237, 238);
   }
   
   .search-icon {
-	margin-right: 20px;
-	color: rgb(73, 71, 71);
+	width: 35px;
+	height: 35px;
+	margin-right:10px;
 	position: absolute;
 	top: 50%;
-	right: 10px;
+	right: 8px;
 	transform: translateY(-50%);
-	pointer-events: none;
+	border-radius: 5px;
+	border:none;
+
   }
   .item p {
-	color:rgb(239, 237, 238);
 	margin-top: 65px;
 	padding-left:-150px;
 	color:rgb(73, 71, 71) ;
@@ -156,7 +166,6 @@ margin-left: 10px;
 	margin-left: 10px;
 }
 .in{
-	backround-color:rgb(239, 237, 238);
 	position: absolute;
 	display: flex;
 	font-family: 'Ubuntu', sans-serif;
@@ -297,12 +306,6 @@ padding-left:10px;
     margin-left:80px;
 	margin-bottom:20px;
 	border-radius:5px;
-}
-.search-icon{
-	width:30px;
-	height: 30px;
-	background-image: url("zalupa.png");
-    background-size: cover;
 }
 .button1{
 	border:none;
