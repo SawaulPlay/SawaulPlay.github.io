@@ -8,7 +8,8 @@ body {
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
-	colorScheme: var(--tg-color-scheme);
+	color: var(--tg-color-scheme);
+	background: var(--tg-color-scheme);
 
 
 .container {
