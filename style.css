@@ -8,8 +8,7 @@ body {
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
-	color: var(--tg-color-scheme);
-	background: var(--tg-color-scheme);
+	
 
 
 .container {
@@ -42,7 +41,7 @@ body {
   width: 80px;	
 }
 .promocode{
-	color:rgb(239, 237, 238);
+	
 }
 
 .item {
@@ -76,14 +75,14 @@ body {
 }
 
 .item h2 {
-	color:rgb(239, 237, 238);
+	
 	font-family: 'Ubuntu', sans-serif;
 	white-space: nowrap; 
 	overflow: hidden; 
 	text-overflow: ellipsis; 
   }
   .item h4 {
-	color:rgb(239, 237, 238);
+	
 	font-family: 'Ubuntu', sans-serif;
 	display: flex;
 	position:relative;
@@ -96,12 +95,12 @@ body {
 	text-align: center;
 }
 .action-button {
-	color:rgb(239, 237, 238);
+	
 	font-family: 'Ubuntu', sans-serif;
 	font-style:normal;
 	width: 178px;
 	height: 45px;
-	background-color: rgb(73, 71, 71); 
+	 
 	border: none;
 	color: white;
 	text-align: center;
@@ -127,7 +126,7 @@ body {
 	font-size: 18px;
 	border-radius: 12px;
 	border: none;
-	background-color:rgb(239, 237, 238);
+
   }
   
   .search-icon {
@@ -145,7 +144,7 @@ body {
   .item p {
 	margin-top: 65px;
 	padding-left:-150px;
-	color:rgb(73, 71, 71) ;
+
   }
   .inner2 {
 	display: grid;
@@ -158,12 +157,12 @@ body {
   overflow: hidden;
 }
 .inner2 h3 {
-	color:rgb(239, 237, 238);
+
 font-family: 'Ubuntu', sans-serif;
 margin-left: 10px;	
 }
 .container h3{
-	color:rgb(239, 237, 238);
+
 	font-family: 'Ubuntu', sans-serif;
 	margin-left: 10px;
 }
@@ -176,7 +175,7 @@ margin-left: 10px;
 	justify-content:start;	
 }
 .in6{
-	color:rgb(239, 237, 238);
+
 	padding-bottom: 15px;
 	margin-left:100px;
 	position: absolute;
@@ -191,7 +190,7 @@ margin-left: 10px;
 	font-family: 'Ubuntu', sans-serif;
 	display: flex;
     align-items: center;
-	background-color:rgb(73, 77, 88);
+
 	position:absolute;
 	margin-left:10px;
 	margin-top:145px;
@@ -200,14 +199,14 @@ margin-left: 10px;
 	border-radius: 15px;
 }
 .text1{
-color:rgb(239, 237, 238);
+
 margin-left:5px;	
 margin-right:10px;
 }
 .copybutton{
 	font-family: 'Ubuntu', sans-serif;
 	border: none;
-	background-color:rgb(73, 77, 88);
+	
 	margin-left:320px;
 	margin-top:145px;
 	position:absolute;
@@ -218,11 +217,11 @@ margin-right:10px;
   background-size: cover;
 }
 .secondbutton{
-	color:rgb(239, 237, 238);
+
 	font-family: 'Ubuntu', sans-serif;
 	font-size:18px;
 	font-style:normal;
-	background-color:rgb(81, 136, 193);
+
 	margin-left:10px;
 	margin-right:8px;
 	margin-top:200px;
@@ -233,7 +232,7 @@ margin-right:10px;
 	border: none;
 }
 .subtext{
-	color:rgb(239, 237, 238);
+
 	text-align:left;
 	font-family: 'Ubuntu', sans-serif;
 	font-size:15px;
@@ -256,10 +255,10 @@ margin-right:10px;
 .in5{
 	font-family: 'Ubuntu', sans-serif;
   padding-bottom: 120px;
-  color: rgb(239, 237, 238);
+
 }
 .in8{
-	background-color:rgb(73, 77, 88);
+
 	border:none;
 	height:35px;
 	width:265px;
@@ -301,7 +300,7 @@ padding-left:10px;
 }
 .in9{
 	border:none;
-	background-color:rgb(73, 77, 88);
+
 	height:35px;
 	width:265px;
 	margin-top:-30px;
@@ -330,11 +329,11 @@ padding-left:10px;
 	margin-bottom:90px;
 }
 .text5{
-color: rgb(239, 237, 238);
+
 font-family: 'Ubuntu', sans-serif;
 }
 .b{
-	color: rgb(239, 237, 238);	
+
 }
 
   
