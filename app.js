@@ -8,8 +8,8 @@ BackButton.onClick(function() {
     WebApp.showAlert("BackButton clicked");
     BackButton.hide();
 });
-WebApp.onEvent('backButtonClicked', function() {
- 
+Telegram.WebApp.onEvent('backButtonClicked', function(){
+  window.location.reload("index.html");
 });
 
 tg.MainButton.textColor = '#FFFFFF';
